@@ -1,0 +1,8 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\rdp]
+@="URL:rdp Protocol"
+"URL Protocol"=""
+[HKEY_CLASSES_ROOT\rdp\shell]
+[HKEY_CLASSES_ROOT\rdp\shell\open]
+[HKEY_CLASSES_ROOT\rdp\shell\open\command]
+@="\"C:\\Windows\\rdp_util.exe\" %1"
